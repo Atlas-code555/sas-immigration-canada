@@ -1,6 +1,6 @@
-# 🍁 SAS Immigration Canada · Cameroun
+# 🍁 Aliyah עֲלִיָּה — Immigration Canada · Cameroun
 
-Guide complet d'immigration Canada depuis le Cameroun — Application web autonome fonctionnant entièrement hors ligne.
+Aliyah עֲלִיָּה — Guide complet d'immigration Canada depuis le Cameroun. Application web gratuite, autonome, fonctionne hors ligne.
 
 ## 🌐 Accéder à l'application
 
