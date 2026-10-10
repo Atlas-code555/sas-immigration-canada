@@ -589,6 +589,18 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);font-
   <div class="hdr-badge">🔒 Hors ligne</div>
 </header>
 
+<!-- ══ BANDEAU PARTAGE ══ -->
+<div id="share-banner" style="background:linear-gradient(135deg,#004d2c,#006B3F);padding:10px 16px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px;border-radius:var(--r);box-shadow:var(--sh-md)">
+  <div style="flex:1;min-width:0">
+    <div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:1px">🌐 Application disponible en ligne</div>
+    <div style="font-size:10px;color:rgba(255,255,255,.7);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">https://atlas-code555.github.io/sas-immigration-canada/</div>
+  </div>
+  <div style="display:flex;gap:6px;flex-shrink:0">
+    <button onclick="navigator.clipboard.writeText('https://atlas-code555.github.io/sas-immigration-canada/').then(()=>{const b=this;b.textContent='✅ Copié !';setTimeout(()=>b.textContent='📋 Copier le lien',2000)})" style="padding:6px 12px;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.35);border-radius:20px;color:#fff;font-size:11px;font-weight:600;cursor:pointer">📋 Copier le lien</button>
+    <a href="https://atlas-code555.github.io/sas-immigration-canada/sas-immigration-canada-mobile.html" target="_blank" style="padding:6px 12px;background:#fff;border-radius:20px;color:#004d2c;font-size:11px;font-weight:700;text-decoration:none">📱 Version mobile</a>
+  </div>
+</div>
+
 <!-- ══════════ NAVIGATION PRINCIPALE ══════════ -->
 <nav class="main-nav">
   <button class="main-tab on"  onclick="showMain('dashboard',this)">🏠 Accueil<span class="nav-tip">Votre tableau de bord personnel : score CRS, progression, alertes urgentes et prochaines actions.</span></button>
