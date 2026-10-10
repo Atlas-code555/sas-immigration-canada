@@ -4,7 +4,7 @@ Guide complet d'immigration Canada depuis le Cameroun — Application web autono
 
 ## 🌐 Accéder à l'application
 
-👉 **[Ouvrir l'application](https://VOTRE-USERNAME.github.io/VOTRE-REPO/)**
+👉 **[Ouvrir l'application](https://atlas-code555.github.io/sas-immigration-canada/)**
 
 ## 📱 Versions disponibles
 
