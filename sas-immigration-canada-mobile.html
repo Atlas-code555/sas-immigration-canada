@@ -790,6 +790,15 @@ div[style*="overflow-x:auto"] { -webkit-overflow-scrolling: touch; }
   <div class="hdr-badge">🔒 Offline</div>
 </header>
 
+<!-- ══ BANDEAU PARTAGE MOBILE ══ -->
+<div id="share-banner" style="background:linear-gradient(135deg,#004d2c,#006B3F);padding:10px 14px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px;border-radius:var(--r)">
+  <div style="flex:1;min-width:0">
+    <div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:1px">🌐 Partager cette application</div>
+    <div style="font-size:10px;color:rgba(255,255,255,.7);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">https://atlas-code555.github.io/sas-immigration-canada/</div>
+  </div>
+  <button onclick="if(navigator.share){navigator.share({title:'SAS Immigration Canada',url:'https://atlas-code555.github.io/sas-immigration-canada/'})}else{navigator.clipboard.writeText('https://atlas-code555.github.io/sas-immigration-canada/').then(()=>{const b=this;b.textContent='✅ Copié!';setTimeout(()=>b.textContent='📤 Partager',2000)})}" style="padding:7px 13px;background:#fff;border:none;border-radius:20px;color:#004d2c;font-size:12px;font-weight:700;cursor:pointer;flex-shrink:0">📤 Partager</button>
+</div>
+
 <!-- ══════════ NAVIGATION PRINCIPALE ══════════ -->
 <nav class="main-nav">
   <button class="main-tab on"  onclick="showMain('dashboard',this)">🏠 Accueil<span class="nav-tip">Votre tableau de bord personnel : score CRS, progression, alertes urgentes et prochaines actions.</span></button>
