@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>SAS Immigration Canada · Cameroun</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍁</text></svg>"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:ital,opsz,wght@1,9..144,300&display=swap" rel="stylesheet"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:'Inter',sans-serif;
+  background:linear-gradient(135deg,#004d2c 0%,#006B3F 55%,#008a50 100%);
+  min-height:100vh;
+  display:flex;align-items:center;justify-content:center;
+  padding:20px;
+}
+.card{
+  background:#fff;
+  border-radius:24px;
+  padding:40px 36px;
+  max-width:480px;
+  width:100%;
+  box-shadow:0 32px 80px rgba(0,0,0,.25);
+  text-align:center;
+}
+.flags{font-size:2.8rem;margin-bottom:12px;letter-spacing:4px}
+h1{
+  font-family:'Fraunces',serif;
+  font-size:26px;font-weight:300;font-style:italic;
+  color:#004d2c;margin-bottom:6px;line-height:1.3;
+}
+.sub{font-size:13px;color:#6b7280;margin-bottom:28px;line-height:1.6}
+.badge-row{
+  display:flex;gap:6px;justify-content:center;
+  flex-wrap:wrap;margin-bottom:32px;
+}
+.badge{
+  font-size:11px;padding:4px 12px;border-radius:20px;font-weight:600;
+  background:#e8f5ee;color:#004d2c;border:1px solid #b3d9c5;
+}
+.btn-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+.btn{
+  display:flex;flex-direction:column;align-items:center;gap:6px;
+  padding:20px 16px;border-radius:16px;text-decoration:none;
+  transition:all .2s;border:2px solid transparent;
+}
+.btn-pc{background:#004d2c;color:#fff}
+.btn-pc:hover{background:#006B3F;transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,107,63,.35)}
+.btn-mobile{background:#e8f5ee;color:#004d2c;border-color:#b3d9c5}
+.btn-mobile:hover{background:#d1edd9;transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,107,63,.15)}
+.btn-ic{font-size:32px}
+.btn-label{font-size:13px;font-weight:700}
+.btn-sub{font-size:11px;opacity:.75;line-height:1.4;text-align:center}
+.divider{
+  display:flex;align-items:center;gap:10px;
+  margin:16px 0;color:#9ca3af;font-size:12px;
+}
+.divider::before,.divider::after{
+  content:'';flex:1;height:1px;background:#e5e7eb;
+}
+.info-box{
+  background:#f9fafb;border-radius:12px;
+  padding:14px 16px;text-align:left;
+  border:1px solid #e5e7eb;
+}
+.info-row{
+  display:flex;align-items:flex-start;gap:8px;
+  font-size:12px;color:#4b5563;
+  padding:4px 0;line-height:1.5;
+}
+.info-row .dot{color:#006B3F;font-weight:700;flex-shrink:0}
+.footer{
+  margin-top:20px;font-size:11px;color:#9ca3af;
+  line-height:1.6;
+}
+.footer a{color:#006B3F;text-decoration:none}
+.footer a:hover{text-decoration:underline}
+
+/* Détection automatique mobile */
+@media(max-width:480px){
+  .card{padding:28px 20px;border-radius:18px}
+  h1{font-size:22px}
+  .btn-grid{grid-template-columns:1fr}
+  .btn-pc{order:2}
+  .btn-mobile{order:1}
+  .btn-mobile{background:#004d2c;color:#fff;border-color:transparent}
+  .btn-mobile:hover{background:#006B3F}
+  .btn-pc{background:#e8f5ee;color:#004d2c;border-color:#b3d9c5}
+  .btn-pc:hover{background:#d1edd9}
+  .auto-badge{display:inline-block}
+}
+.auto-badge{
+  display:none;
+  font-size:10px;padding:2px 8px;border-radius:20px;
+  background:#fcd116;color:#004d2c;font-weight:700;
+  margin-top:4px;
+}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="flags">🇨🇲 🍁 🇨🇦</div>
+  <h1>SAS Immigration Canada<br>Cameroun</h1>
+  <p class="sub">Guide complet d'immigration · Simulateur CRS officiel IRCC 2026<br>Procédures Yaoundé & Douala · Fonctionne hors ligne</p>
+
+  <div class="badge-row">
+    <span class="badge">21 modules</span>
+    <span class="badge">Score CRS officiel</span>
+    <span class="badge">🔒 Hors ligne</span>
+    <span class="badge">Gratuit</span>
+  </div>
+
+  <div class="btn-grid">
+    <a href="sas-immigration-canada-mobile.html" class="btn btn-mobile">
+      <span class="btn-ic">📱</span>
+      <span class="btn-label">Version Mobile</span>
+      <span class="btn-sub">Optimisée smartphone<br>Navigation tactile</span>
+      <span class="auto-badge">✨ Recommandée</span>
+    </a>
+    <a href="sas-immigration-canada-cameroun-v2.html" class="btn btn-pc">
+      <span class="btn-ic">🖥️</span>
+      <span class="btn-label">Version PC</span>
+      <span class="btn-sub">Ordinateur & tablette<br>Tous les onglets visibles</span>
+    </a>
+  </div>
+
+  <div class="divider">ce que vous trouverez</div>
+
+  <div class="info-box">
+    <div class="info-row"><span class="dot">✅</span>Simulateur CRS IRCC 2026 avec TEF Canada, TCF, IELTS et CELPIP</div>
+    <div class="info-row"><span class="dot">✅</span>Questionnaire d'éligibilité en 10 questions avec plan d'action</div>
+    <div class="info-row"><span class="dot">✅</span>Procédures détaillées depuis Yaoundé et Douala (MINREX, VFS, WES, DHL...)</div>
+    <div class="info-row"><span class="dot">✅</span>Guide complet de dépôt du dossier IRCC champ par champ</div>
+    <div class="info-row"><span class="dot">✅</span>Planning personnalisé, budget total en FCFA, alertes expiration</div>
+    <div class="info-row"><span class="dot">✅</span>Tirages CRS actualisés automatiquement depuis canada.ca</div>
+    <div class="info-row"><span class="dot">✅</span>Guide d'arrivée au Canada + estimateur coûts de vie 9 villes</div>
+    <div class="info-row"><span class="dot">✅</span>Glossaire IRCC, refus & recours, préparation entrevue consulaire</div>
+  </div>
+
+  <p class="footer">
+    Application gratuite · Données sauvegardées uniquement sur votre appareil<br>
+    Informations basées sur les règles IRCC en vigueur · Toujours vérifier sur
+    <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete.html" target="_blank">canada.ca</a>
+  </p>
+</div>
+</body>
+</html>
